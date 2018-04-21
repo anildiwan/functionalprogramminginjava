@@ -11,7 +11,7 @@ public class ListFiles {
                     .filter(Files::isDirectory)
                     .forEach(System.out::println);
 
-            Files.newDirectoryStream(Paths.get("./src/com/fpij/chpt2"), path -> path.toString().endsWith(".java"))
+            Files.newDirectoryStream(Paths.get("com/fpij/chpt2"), path -> path.toString().endsWith(".java"))
                     .forEach(System.out::println);
         } catch (IOException e) {
             e.printStackTrace();

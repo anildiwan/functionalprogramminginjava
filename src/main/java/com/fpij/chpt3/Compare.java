@@ -1,7 +1,5 @@
 package com.fpij.chpt3;
 
-import com.sun.deploy.util.StringUtils;
-
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
